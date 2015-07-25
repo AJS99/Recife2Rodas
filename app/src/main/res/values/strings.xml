@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Recife Acessível</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="msgNenhumObstaculoEncontrado">Nenhum obstáculo foi encontrado.</string>
+</resources>
