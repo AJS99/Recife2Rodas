@@ -222,7 +222,7 @@ public class MapsActivity extends FragmentActivity implements LocationListener{
 
                     descricaoDetalhe.setText(obstaculo.getDescricao());
                     if(obstaculo.getFotoURI() != null){
-                        Picasso.with(MapsActivity.this).load(Uri.parse(obstaculo.getFotoURI().getUrl())).into(photoDetalhe);
+                        Picasso.with(MapsActivity.this).load(obstaculo.getFotoURI().getUrl()).into(photoDetalhe);
                         photoDetalhe.setVisibility(View.VISIBLE);
                     }
 
